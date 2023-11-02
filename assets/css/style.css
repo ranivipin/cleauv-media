@@ -6,7 +6,7 @@
     list-style-type: none;
     text-decoration: none !important;
     box-sizing: border-box;
-    /* outline: 2px solid red; */
+    outline: 2px solid red;
 }
 
 .custom-container {
@@ -42,9 +42,8 @@
     padding-top: 80px;
     padding-bottom: 80px;
 }
-.html,body{
-    overflow-x: hidden;
-}
+
+
 
 .bg-color {
     background-color: #413e39;
@@ -62,25 +61,86 @@
 
 .p-absolute2 {
     position: absolute;
-    bottom: -16%;
+    bottom: -11%;
     right: 0;
 
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
 }
 
 .bg-color4 {
     background-color: #242323;
 }
 
+.position-absolute538 {
+    position: absolute;
+    top: 50%;
+}
+
 .box {
+    /* max-width: 343px; */
+    height: 57px;
     border-radius: 5px;
-    display: flex;
     padding: 14px 32px;
-    align-items: center;
-    align-self: stretch;
     border: 1px solid rgba(255, 255, 255, 0.30);
 }
 
+.box-2 {
+    /* max-width: 238px; */
+    height: 57px;
+    border-radius: 5px;
+    padding: 14px 32px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+}
+
+.box-3 {
+    /* max-width: 205px; */
+    height: 57px;
+    border-radius: 5px;
+    padding: 14px 32px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+}
+
+.box-4 {
+    /* max-width: 261px; */
+    height: 57px;
+    border-radius: 5px;
+    padding: 14px 32px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+}
+
+.btn1:hover {
+    background-color: #80765D;
+}
+
 .box:hover {
+    border-radius: 5px;
+    border: 1px solid #FFCF23;
+    background: #242323;
+    box-shadow: 5px 5px 0px 0px #FFCF23;
+}
+
+.box-4:hover {
+    border-radius: 5px;
+    border: 1px solid #FFCF23;
+    background: #242323;
+    box-shadow: 5px 5px 0px 0px #FFCF23;
+}
+
+.box-2:hover {
+    border-radius: 5px;
+    border: 1px solid #FFCF23;
+    background: #242323;
+    box-shadow: 5px 5px 0px 0px #FFCF23;
+}
+
+.box-3:hover {
     border-radius: 5px;
     border: 1px solid #FFCF23;
     background: #242323;
@@ -108,9 +168,11 @@
 .mw-550 {
     max-width: 550px;
 }
-.btn2:hover{
-transform: translateY(-5px);
+
+.btn2:hover {
+    transform: translateY(-5px);
 }
+
 .btn2 {
     padding: 12px 30px;
     border: 2px solid #FFCF23;
@@ -189,7 +251,7 @@ transform: translateY(-5px);
 .position-ab {
     position: absolute;
     left: 0;
-    top: -8%;
+    top: 0;
 }
 
 .position-abs {
@@ -251,7 +313,11 @@ ul li a:hover::after {
 }
 
 .my-container {
-    max-width: 1920px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .card1:hover {
@@ -276,8 +342,8 @@ ul li a:hover::after {
     height: 540px;
 }
 
-.clr2 {
-    color: var(--yellow, #FFCF23);
+.text-color {
+    color: #FFCF23;
 }
 
 .mt-30 {
@@ -410,33 +476,42 @@ ul li a:hover::after {
     right: 12%;
     bottom: 0;
 }
-.position4{
+
+.position4 {
     position: absolute;
     left: 0;
     top: 2%;
     width: 10%;
 }
-.ppp{
+
+.ppp {
     position: absolute;
-    right: 5%;
+    right: 20%;
     top: 4%;
 }
-.position-43{
+
+.position-43 {
     position: absolute;
     bottom: 35%;
     left: 0;
 }
+
 .position2 {
     position: absolute;
     left: 9%;
-    top: 10%;
+    top: 0;
 }
 
 .position3 {
     position: absolute;
-    bottom: 20%;
-    left: 25%;
+    bottom: 29%;
+    left: 21%;
 }
+
+.mw-730 {
+    max-width: 730px;
+}
+
 /* .slick-track{
     display: flex !important;
 }
@@ -481,44 +556,6 @@ ul li a:hover::after {
     border-radius: 50%;
 }
 
-/* 
-.slick-dots li.slick-active button:before {
-    opacity: .75;
-    color: #000;
-}
-
-.slick-dots li button:before {
-    font-family: slick;
-    font-size: 6px;
-    line-height: 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40px;
-    height: 11px;
-    border-radius: 34px;
-    opacity: 0.2;
-    background: var(--BLACK, #3C3C3C);
-    content: '•';
-    text-align: center;
-    opacity: .25;
-    color: #000;
-}
-
-.slick-dots li button:before {
-    font-family: slick;
-    font-size: 6px;
-    line-height: 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40px;
-    height: 20px;
-    content: '•';
-    text-align: center;
-    opacity: .25;
-    color: #000;
-} */
 .accordion-button:not(.collapsed) {
     color: #000000 !important;
     box-shadow: none !important;
@@ -534,6 +571,9 @@ ul li a:hover::after {
     transition: var(--bs-accordion-btn-icon-transition);
 }
 
+.accordion-body {
+    padding: unset !important;
+}
 
 
 .accordion-button:focus {
@@ -567,11 +607,13 @@ ol li {
     border-radius: 50%;
     background-color: #444343;
     transition: .6s;
-   
+
 }
-.circle2:hover{
+
+.circle2:hover {
     transform: translateY(-10px);
 }
+
 .clr3 {
     color: #FAFAFA;
 }
@@ -580,8 +622,35 @@ ol li {
     border-bottom: 1px solid #FAFAFA;
     width: 100%;
     height: 100%;
+}
 
+.ellipse1-section4 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
 
+.ellipse2-section4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.section6 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.section6-ellipse2{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.ellipse2 {
+    position: absolute;
+   top: 10%;
+   width: 50%;
 }
 
 .position-ff {
@@ -606,12 +675,14 @@ ol li {
 .mw-600 {
     max-width: 600px;
 }
+
 .slider-card {
     border: 1px solid #FFCF23;
     padding: 15px;
     border-radius: 15px;
     background: #FFFCF6;
     margin: 25px;
+    max-width: 773px;
 }
 
 .slider-card:hover {
@@ -626,26 +697,34 @@ ol li {
     opacity: 0.7;
 }
 
-.bg-pink {
-    background-color: var(--color-pink);
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #000;
+    width: 47px !important;
 }
 
-.slider-2 .slick-dots li button:before {
+.slick-dots li button:before {
+    content: 'unset';
+    font-size: 0;
+}
+
+
+.slider-slick .slick-dots li button:before {
     font-family: slick;
     font-size: 16px;
     line-height: 20px;
     position: absolute;
     top: 0;
     left: 0;
-    width: 31px;
-    height: 11px;
+    width: 33px;
+    height: 13px;
     content: '';
     text-align: center;
-    background-color: var(--color-black);
+    background-color: var(--bs-black);
     border-radius: 34px;
 }
 
-.slider-2 .slick-dots {
+.slider-slick .slick-dots {
     position: absolute;
     bottom: -52px;
     display: block;
@@ -657,7 +736,8 @@ ol li {
 }
 
 .slick-dots li {
-    margin-right: 15px
+    margin-right: 25px !important;
+
 }
 
 .blue-ellipse {
@@ -671,6 +751,7 @@ ol li {
     bottom: 6%;
     right: 0;
 }
+
 @media (max-width:1200px) {
     label[for="menubar"] {
         display: flex;
